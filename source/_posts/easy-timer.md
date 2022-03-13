@@ -40,7 +40,7 @@ tags:
 
 废话不多说，直接上代码好了
 
-```arduino
+```cpp
 #include "LedControl.h"
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
