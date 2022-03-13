@@ -38,4 +38,55 @@ tags:
 
 ## 具体配置
 
-To be continued;
+1. 首先，你要去 [hexo](https://hexo.io/zh-cn/docs/index.html) 官网按照教程安装 hexo
+
+2. 去云云酱的 [hexo 主题](https://yun.yunyoujun.cn/guide/)，跟着教程一步一步安装并且跟着里面的文档配置
+
+3. 我这里用的是 GitHub actions 自动打包然后用 FTP 上传到服务器上的。其路径是 `.github/workflows/deploy.yml`（没有对应文件夹或文件请新建）。GitHub actions 具体配置如下：
+
+```yml
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: 🍳 Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node_version: [16.x]
+
+    steps:
+      - name: 🤔 Checkout
+        uses: actions/checkout@v2
+      
+      - name: 🚚 Install dependencies
+        run: |
+          npm install
+
+      - name: 🎉 Deploy hexo
+        run: |
+          npm run deploy
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./public/
+          server-dir: /wwwroot/lkzstudio/www/
+```
+
+*注：${{ secrets.ftp_xxx }} 是在你 GitHub 仓库里 Settings -> Secrets -> Actions -> New repository secret 添加的*
+
+![Secrets of GitHub actions](https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/content/github-actions-secrets-1370ca.png)
+
+3. 之后把你的项目用 `git push` 提交到服务器，GitHub 就会自动执行 GitHub Actions 然后上传到你的服务器了
+
+4. 解析域名并绑定 FTP 上传的服务器，一切就大功告成了！

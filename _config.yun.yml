@@ -181,5 +181,5 @@ banner:
     icon: icon-arrow-down-s-line
 
 notice:
-  enable: true
+  enable: false
   content: Test
