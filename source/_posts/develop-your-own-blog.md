@@ -83,6 +83,6 @@ jobs:
 
 ![Secrets of GitHub actions](https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/content/github-actions-secrets-1370ca.png)
 
-3. 之后把你的项目用 `git push` 提交到服务器，GitHub 就会自动执行 GitHub Actions 然后上传到你的服务器了
+4. 之后把你的项目用 `git push` 提交到服务器，GitHub 就会自动执行 GitHub Actions 然后上传到你的服务器了
 
-4. 解析域名并绑定 FTP 上传的服务器，一切就大功告成了！
+5. 解析域名并绑定 FTP 上传的服务器，一切就大功告成了！
