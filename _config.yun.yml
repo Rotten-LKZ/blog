@@ -7,11 +7,11 @@ avatar:
   status:
     enable: true
     emoji: 🌑
-    message: Looking for dawn.
+    message: 对酒当歌，人生几何？
 
 reward:
   enable: true
-  comment: 我很可爱，请给我钱
+  comment: 呱呱呱~~咣啷咣啷咣啷~~~
   methods:
     - name: 支付宝
       path: https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/basic/donation-code/alipay-3d7782.jpg
@@ -47,9 +47,9 @@ giscus:
 
 footer:
   since: 2022
-  icon:
-    url: https://sponsors.yunyoujun.cn
-    title: 云游君的赞助者们
+  # icon:
+  #   url: https://sponsors.yunyoujun.cn
+  #   title: 云游君的赞助者们
   support:
     enable: true
     title: 又拍云
@@ -79,40 +79,40 @@ albums:
 girls:
   enable: true
 
-tags:
-  动画: crimson
-  漫画: orange
-  Parcel: "#21374b"
-  学习: saddlebrown
-  MAD: crimson
-  教程: royalblue
-  笔记: dimgray
-  分享: "#0078e7"
-  随笔: mediumpurple
-  Blender: "#d04d2d"
-  Linux: "#2577b1"
-  中传: "#ccb44b"
-  部落: "#DD306A"
-  科幻: midnightblue
-  蚂蚁森林: "#54a892"
+# tags:
+  # 动画: crimson
+  # 漫画: orange
+  # Parcel: "#21374b"
+  # 学习: saddlebrown
+  # MAD: crimson
+  # 教程: royalblue
+  # 笔记: dimgray
+  # 分享: "#0078e7"
+  # 随笔: mediumpurple
+  # Blender: "#d04d2d"
+  # Linux: "#2577b1"
+  # 中传: "#ccb44b"
+  # 部落: "#DD306A"
+  # 科幻: midnightblue
+  # 蚂蚁森林: "#54a892"
 
-categories:
-  云游的小视频: "#FB7299"
+# categories:
+  # 云游的小视频: "#FB7299"
 
 pages:
   - name: 我的小伙伴们
     url: /links/
     icon: icon-genderless-line
     color: dodgerblue
-  - name: 喜欢的女孩子
-    url: /girls/
-    icon: icon-women-line
-    color: hotpink
+  # - name: 喜欢的女孩子
+  #   url: /girls/
+  #   icon: icon-women-line
+  #   color: hotpink
 
 menu:
   custom:
-    title: 留言板
-    path: /about/#comment
+    title: 关于我
+    path: /about/
     icon: icon-clipboard-line
 
 cursor:
