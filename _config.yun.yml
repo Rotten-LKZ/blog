@@ -11,7 +11,7 @@ avatar:
 
 reward:
   enable: true
-  comment: 呱呱呱~~咣啷咣啷咣啷~~~
+  comment: 呱呱呱~~咣啷咣啷咣啷~~~（赞助）
   methods:
     - name: 支付宝
       path: https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/basic/donation-code/alipay-3d7782.jpg

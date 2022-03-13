@@ -22,17 +22,13 @@ tags:
 
 ## 为什么用 hexo？
 
-其实我刚开始用博客的时候是 wordpress，但是感觉我的腰包撑不住我使用 wordpress
+其实我刚开始用博客的时候是 wordpress，但是感觉用的不爽 ~~（不够折腾）~~。索性就用静态博客 hexo 了。
 
-索性就用静态博客 hexo 了。
-
-本来说还想考虑 typecho 的，但是好像说正式版很久没有更新了并且配置起来比 wordpress 麻烦（虽然 hexo 配置起来也不简单就是了），
-
-所以就放弃使用 typecho 而转用 hexo 博客了。
+本来说还想考虑 typecho 的，但是好像说正式版很久没有更新了并且配置起来比 wordpress 麻烦（虽然 hexo 配置起来也不简单就是了），所以就放弃使用 typecho 而转用 hexo 博客了。
 
 **更主要的是**
 
-[云云酱](https://www.yunyoujun.cn/) 有这个 hexo 博客的主题，所以就拿来用了！！！
+[云云酱](https://www.yunyoujun.cn/) 有写过一个 hexo 博客的主题 [Hexo-Theme-Yun](https://yun.yunyoujun.cn/)，所以就拿来用了！！！
 
 大爱云云（不）
 
@@ -40,7 +36,7 @@ tags:
 
 1. 首先，你要去 [hexo](https://hexo.io/zh-cn/docs/index.html) 官网按照教程安装 hexo
 
-2. 去云云酱的 [hexo 主题](https://yun.yunyoujun.cn/guide/)，跟着教程一步一步安装并且跟着里面的文档配置
+2. 去云云酱的 [Hexo-Theme-Yun](https://yun.yunyoujun.cn/)，跟着教程一步一步安装并且跟着里面的文档配置
 
 3. 我这里用的是 GitHub actions 自动打包然后用 FTP 上传到服务器上的。其路径是 `.github/workflows/deploy.yml`（没有对应文件夹或文件请新建）。GitHub actions 具体配置如下：
 
@@ -83,7 +79,7 @@ jobs:
           server-dir: /wwwroot/lkzstudio/www/
 ```
 
-*注：${{ secrets.ftp_xxx }} 是在你 GitHub 仓库里 Settings -> Secrets -> Actions -> New repository secret 添加的*
+*注：最后几行那三个参数是在你 GitHub 仓库里 Settings -> Secrets -> Actions -> New repository secret 添加的*
 
 ![Secrets of GitHub actions](https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/content/github-actions-secrets-1370ca.png)
 
