@@ -1,0 +1,36 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: 🍳 Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: ubuntu-latest
+        node_version: 16.x
+
+    steps:
+      - name: 🤔 Checkout
+        uses: actions/checkout@v2
+      
+      - name: 🚚 Install dependencies
+        run: |
+          npm install
+
+      - name: 🎉 Deploy hexo
+        run: |
+          npm run deploy
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: hk3ftp.345123.xyz
+          username: zdljabzk
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./public/
+          server-dir: /wwwroot/lkzstudio/www/

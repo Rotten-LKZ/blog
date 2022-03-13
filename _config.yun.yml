@@ -1,0 +1,185 @@
+mode: auto
+
+favicon: https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/basic/avatar-icon-39e68a.png
+
+avatar:
+  url: https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/basic/avatar-7f23ce.jpg
+  status:
+    enable: true
+    emoji: 🌑
+    message: Looking for dawn.
+
+reward:
+  enable: true
+  comment: 我很可爱，请给我钱
+  methods:
+    - name: 支付宝
+      path: https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/basic/donation-code/alipay-3d7782.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: QQ 支付
+      path: https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/basic/donation-code/qq-607995.jpg
+      color: "#12B7F5"
+      icon: icon-qq-line
+    - name: 微信支付
+      path: https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/basic/donation-code/wechat-60f837.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+comment:
+  candidates:
+    - waline
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://jq.qq.com/?_wv=1027&k=BzFZqGhH" target="_blank">QQ 群 836523771</a> 与我交流。
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+disqusjs:
+  enable: false
+
+# https://github.com/laymonage/giscus
+giscus:
+  enable: false
+
+footer:
+  since: 2022
+  icon:
+    url: https://sponsors.yunyoujun.cn
+    title: 云游君的赞助者们
+  support:
+    enable: true
+    title: 又拍云
+    link: https://www.upyun.com
+    logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+    prefix: 本网站由
+    suffix: 提供 CDN 加速
+  custom_text:
+
+engine_search:
+  enable: false
+
+google_analytics:
+  enable: true
+  id: G-1LL0D86CY9
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+post_edit:
+  enable: false
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+  蚂蚁森林: "#54a892"
+
+categories:
+  云游的小视频: "#FB7299"
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: false
+
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: QQ 群 836523771
+    link: https://jq.qq.com/?_wv=1027&k=BzFZqGhH
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/Rotten-LKZ
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 微博
+    link: https://weibo.com/rottenlkz
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=634683704
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/rotcool
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/290238250
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: E-Mail
+    link: mailto:rotten_lkz@outlook.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: Travelling
+    link: https://travellings.link
+    icon: icon-train-line
+    color: black
+
+banner:
+  enable: true
+  title: 烂裤子の小站
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+notice:
+  enable: true
+  content: Test
