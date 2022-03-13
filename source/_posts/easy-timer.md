@@ -34,7 +34,7 @@ tags:
 因为刚刚好可以一排线怼一起了
 
 
-![真·怼一起](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/524e5c8a0e7d423d9f3ae38ff3a507d6~tplv-k3u1fbpfcp-watermark.image?)
+![真·怼一起](https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/content/esp8266-f8bae8.png)
 
 ## 具体实现
 
@@ -239,7 +239,7 @@ void loop() {
 - 4 位数字会显示：XXXX
 - 5 位数字及以上没有显示
 
-![成品效果图](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a05bbf4ea86d46c287a5853edb3b70e5~tplv-k3u1fbpfcp-watermark.image?)
+![成品效果图](https://cdn.jsdelivr.net/gh/Rotten-LKZ/cdn@main/images/content/max7219-83a9a7.png)
 
 ## 预告
 
