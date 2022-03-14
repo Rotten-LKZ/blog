@@ -87,5 +87,5 @@ categories:
 - Success is the sum of small efforts repeated day in and day out.
   成功是日复一日那一点小小努力的积累。
 
-- Looking back now, I can see my whole life herehas been one long bus ride.
+- Looking back now, I can see my whole life here has been one long bus ride.
   回首过往，我觉得我的一生就是一次长途汽车之旅。
