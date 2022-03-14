@@ -6,6 +6,7 @@ categories:
 - 编程
 tags: 
 - hexo
+- Node.js
 - 教程
 - 编程
 ---

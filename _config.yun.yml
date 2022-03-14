@@ -79,7 +79,7 @@ albums:
 girls:
   enable: true
 
-# tags:
+tags:
   # 动画: crimson
   # 漫画: orange
   # Parcel: "#21374b"
@@ -95,6 +95,7 @@ girls:
   # 部落: "#DD306A"
   # 科幻: midnightblue
   # 蚂蚁森林: "#54a892"
+  云云酱: "#4EAAFF"
 
 # categories:
   # 云游的小视频: "#FB7299"
