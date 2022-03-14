@@ -23,7 +23,7 @@ import xxx from '@/xx/xx/xxx';
  - [Node.js（此文章使用v12.16.3版本）](https://nodejs.org/en/download/)
  - [Visual Studio Code（非必须 此文章使用1.50.1版本）](https://code.visualstudio.com/)
 
-> 1. Node.js如果下载过慢，可以从[淘宝镜像](https://npm.taobao.org/mirrors/node/)下载
+> Node.js如果下载过慢，可以从[淘宝镜像](https://npm.taobao.org/mirrors/node/)下载
 
 ## 第一种：[webpack](https://webpack.js.org/)
 
