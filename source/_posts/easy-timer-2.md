@@ -200,6 +200,7 @@ void loop() {
 1. 每八秒会轮换显示天数或者精确到的秒数
 2. 每 86400 秒会自动同步一次时间（其实就是 24 小时也就是 1 天）
 3. 同步时间 API：<http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp>
+4. 对了用的时候别忘了改里面 `WiFiName` 和 `WiFiPassword` 为自己家的 WiFi 账号密码
 
 ## 效果展示
 
