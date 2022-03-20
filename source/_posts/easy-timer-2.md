@@ -164,7 +164,7 @@ void showDigits(int targetTime) {
 void setup() {
   Serial.begin(9600);
 
-  WiFi.begin("D-Link_DAP-ZAT", "zyf20070707");
+  WiFi.begin("WiFiName", "WiFiPasssword");
 
   Serial.println("Waiting for connecting ...");
 
