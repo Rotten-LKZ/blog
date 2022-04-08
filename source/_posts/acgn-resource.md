@@ -78,3 +78,10 @@ categories:
   - ReadEra
 
   （我只用过 Neat Reader，其他的都是群友推荐（万能群友））
+
+- 播放器
+  - 电脑推荐 [PotPlayer](http://potplayer.daum.net/)
+  - 手机推荐 MXPlayer，Google Play 上面有，也可以直接安装 APK
+
+- 手机文件资源管理器
+  MiX：也是一样 Google Play 上面有，也可以直接安装 APK。并且打开软件右上角点进去设置 - 插件，里面可以添加很多插件。这样可以直接在这个文件管理器里面看图片、看 PDF、看视频，很强大。
